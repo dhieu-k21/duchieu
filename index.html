@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT Híu </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="vanta-bg"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>DUC HIEU</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Trang Chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Kinh Nghiệm</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Xin chào! Tôi là <span class="highlight">Đức Hiếu</span></h1>
+                    <p class="hero-subtitle">Software Engineer | Full Stack Web Developer</p>
+                    <p class="hero-description">
+                        Tôi là một lập trình viên đam mê công nghệ với kinh nghiệm phát triển 
+                        ứng dụng web . Luôn học hỏi và cập nhật những công nghệ mới nhất.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Liên Hệ</a>
+                        <a href="#about" class="btn btn-secondary">Tìm Hiểu Thêm</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                      <div class="profile-img">
+                        <img src="IMG_7624 (1).jpg" alt="Đức Hiếu" />
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Giới Thiệu</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Tôi là một Software Engineer với 1 năm kinh nghiệm trong việc phát triển 
+                            các ứng dụng web. Có kinh nghiệm làm việc với các công nghệ khác nhau 
+                            như JS , Spring Boot , Java , MySQL , và github.
+                        </p>
+                        <div class="skills">
+                            <h3>Kỹ Năng</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">BootStrap</span>
+                                <span class="skill-tag">Spring Boot</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chatbot giữa Giới thiệu và Kinh nghiệm -->
+        <div id="chatbot-container" class="centered-chatbot">
+            <div id="chatbot-window">
+                <div class="chatbot-messages" id="chatbot-messages">
+                    <div class="message bot-message">
+                        <p>Xin chào! Tôi là trợ lý của Híu. Tôi có thể giúp gì cho bạn hôm nay?</p>
+                        <!-- <div class="quick-replies">
+                            <button class="quick-reply" data-question="Giới thiệu về bạn">Giới thiệu về bạn</button>
+                            <button class="quick-reply" data-question="Kinh nghiệm làm việc">Kinh nghiệm làm việc</button>
+                            <button class="quick-reply" data-question="Kỹ năng chính">Kỹ năng chính</button>
+                            <button class="quick-reply" data-question="Liên hệ">Liên hệ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="chatbot-input">
+                    <input type="text" id="chatbot-input" placeholder="Nhập tin nhắn..." autocomplete="off">
+                    <button id="chatbot-send">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Kinh Nghiệm Làm Việc</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Intern</h3>
+                            <h4>Công Ty TNHH Công Nghệ CYBERSOFT</h4>
+                            <span class="timeline-date">4/2025 - 7/2025</span>
+                            <p>
+                                Phát triển và duy trì các ứng dụng web quy nhỏ . Làm việc với team 
+                                để thiết kế kiến trúc hệ thống và tối ưu hóa hiệu suất.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Full Stack Developer</h3>
+                            <h4>Startup XYZ</h4>
+                            <span class="timeline-date">2020 - 2022</span>
+                            <p>
+                                Xây dựng ứng dụng web từ đầu sử dụng React và Node.js. 
+                                Tham gia vào quá trình thiết kế UX/UI và phát triển API.
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Liên Hệ</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hieuthai1308@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+84 868876659</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/yourprofile</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/yourusername</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
